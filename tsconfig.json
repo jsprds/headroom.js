@@ -2,11 +2,13 @@
     "compilerOptions": {
         "outDir": "./dist",
         "declarationDir": "./dist",
-        "allowJs": true,
         "target": "es5",
         "declaration": true,
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "./src/**/*.spec.ts"
     ]
 }

@@ -2,8 +2,8 @@
   "name": "headroom.ts",
   "version": "0.0.1",
   "description": "Give your page some headroom. Hide your header until you need it",
-  "main": "dist/bundles/headroom.umd.js",
-  "module": "dist/esm/headroom.js",
+  "main": "dist/headroom.umd.js",
+  "module": "dist/headroom.esm.js",
   "typings": "dist/headroom.d.ts",
   "files": [
     "dist"
@@ -27,9 +27,15 @@
   "homepage": "",
   "license": "MIT",
   "dependencies": {
-    "rollup": "^0.56.5",
-    "rollup-plugin-typescript2": "^0.12.0",
-    "typescript": "^2.7.2"
+    "rollup": "~0.56.5",
+    "rollup-plugin-typescript2": "~0.12.0",
+    "typescript": "~2.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "~22.2.0",
+    "jest": "~22.4.2",
+    "rimraf": "~2.6.2",
+    "ts-jest": "~22.4.1"
   },
   "jest": {
     "transform": {
@@ -44,11 +50,5 @@
       "json",
       "node"
     ]
-  },
-  "devDependencies": {
-    "@types/jest": "^22.2.0",
-    "jest": "^22.4.2",
-    "rimraf": "^2.6.2",
-    "ts-jest": "^22.4.1"
   }
 }

@@ -11,11 +11,11 @@ export default {
     output: [
         {
             name: 'headroom.umd',
-            file: 'dist/bundles/headroom.umd.js',
+            file: 'dist/headroom.umd.js',
             format: 'umd'
         },
         {
-            file: 'dist/esm/headroom.js',
+            file: 'dist/headroom.esm.js',
             format: 'es'
         }
     ]
