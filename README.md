@@ -1,4 +1,4 @@
-# [Headroom.js](http://wicky.nillia.ms/headroom.js)
+# Headroom.ts
 
 **Give your pages some headroom. Hide your header until you need it.**
 
@@ -178,4 +178,4 @@ Issues can be resolved quickest if they are descriptive and include both a reduc
 
 ## License
 
-Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php). Forked from https://github.com/WickyNilliams/headroom.js

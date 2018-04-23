@@ -1,5 +1,5 @@
 {
-  "name": "headroom.ts",
+  "name": "@jsprds/headroom.ts",
   "version": "0.0.1",
   "description": "Give your page some headroom. Hide your header until you need it",
   "main": "dist/headroom.umd.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsprds/headroom.js"
+    "url": "https://github.com/jsprds/headroom.ts"
   },
   "keywords": [
     "header",
