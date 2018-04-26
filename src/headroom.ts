@@ -68,7 +68,6 @@ export class Headroom {
     }
 
     public update() {
-        console.log('UPDATE');
         const currentScrollY = this.getScrollY();
         const scrollDirection = currentScrollY > this.lastKnownScrollY ? 'down' : 'up';
         const toleranceExceeded = this.toleranceExceeded(currentScrollY, scrollDirection);
